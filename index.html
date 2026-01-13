@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Participation Activity 1</title>
+    <style>
+        body {
+            font-family:'Courier New', Courier, monospace;
+            margin: 50px;
+        }
+        div {
+            font-size: 16px
+        }
+    </style>
+</head>
+    <body>
+        <h1 style="text-align: center; border: 5px solid #373737;background: #303030; color: white; padding: 10px;"><b>History of JavaScript</b></h1>
+        <div id="output"></div><br>
+        <div id="output2"></div><br>
+        <div id="output3"></div><br><br>
+        <div id="output4"></div><br>
+        <script>
+            window.alert('References: W3Schools.com. (n.d.). https://www.w3schools.com/js/js_history.asp');
+            console.log('References: W3Schools.com. (n.d.). https://www.w3schools.com/js/js_history.asp');
+
+            let desc = 'JavaScript was invented by Brendan Eich in 1995';
+            let p1 = "It was developed for Netscape 2, and became the ECMA-262 standard in 1997. After Netscape handed JavaScript over to ECMA, the Mozilla foundation continued to develop JavaScript for the Firefox browser. Mozilla's latest version was 1.8.5. (Identical to ES5).";
+            let p2 = 'Internet Explorer (IE4) was the first browser to support ECMA-262 Edition 1 (ES1).';
+            let p3 = 'In 1996, Netscape and Brendan Eich took JavaScript to the ECMA international standards organization, and a technical committee (TC39) was created to develop the language. ECMA-262 Edition 1 was released in June 1997.';
+
+            document.getElementById('output').innerHTML=desc;
+            document.getElementById('output2').innerHTML=p1;
+            document.getElementById('output3').innerHTML=p2;
+            document.getElementById('output4').innerHTML=p3;
+        </script>
+    </body>
+</html>
